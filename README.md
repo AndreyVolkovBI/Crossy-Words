@@ -19,7 +19,7 @@ Result:
 
 ## Example
 ```python
-import crossy-words as cw
+import crossywords as cw
 
 matrix, words = cw.getMatrix("en")  # getting a matrix and words in it
 
