@@ -7,7 +7,7 @@ lang - "en", "ru"
 **printMatrix(matrix)** - prints generated matrix
 **printWords(matrix)** - prints generated words with coordinates of letters in the matrix
 
-'''
+```
 import crossy-words as cw
 
 matrix, words = cw.getMatrix("en")  # getting a matrix and words in it
@@ -29,4 +29,4 @@ show - [[2, 0], [1, 1], [2, 1], [2, 2]]
 talk - [[0, 2], [0, 1], [1, 2], [1, 3]]
 start - [[0, 3], [0, 2], [0, 1], [1, 0], [0, 0]]
 
-'''
+```
