@@ -14,6 +14,9 @@ Result:
 
 `printWords(matrix)` - prints generated words with coordinates of letters in the matrix
 
+## Installation
+`pip install crossy-words`
+
 ## Example
 ```python
 import crossy-words as cw
