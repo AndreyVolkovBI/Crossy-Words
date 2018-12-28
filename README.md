@@ -12,7 +12,7 @@ Result:
 
 `printMatrix(matrix)` - prints generated matrix
 
-`printWords(matrix)` - prints generated words with coordinates of letters in the matrix
+`printWords(words)` - prints generated words with coordinates of letters in the matrix
 
 ## Installation
 `pip install crossywords`
