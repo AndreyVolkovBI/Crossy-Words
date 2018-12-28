@@ -10,8 +10,6 @@ Result:
 - a list of lists representing a 5x5 matrix 
 - a dictionary of coordinates of specific word {word: [coordinates in matrix]}
 
-lang - "en", "ru"
-
 `printMatrix(matrix)` - prints generated matrix
 
 `printWords(matrix)` - prints generated words with coordinates of letters in the matrix
