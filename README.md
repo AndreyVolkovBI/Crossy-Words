@@ -1,7 +1,7 @@
 # Crossy words: word matrix
 Library that generates the word matrix in a way to have multiple words in one 5x5 matrix.
-## Available methods:
-`getMatrix(lang=”en”)` – returns two values: a list of lists representing a 5x5 matrix and a dictionary of coordinates of a specific word {word: [coordinates in matrix]}
+## Available methods
+`getMatrix(lang="en")` – returns two values: a list of lists representing a 5x5 matrix and a dictionary of coordinates of a specific word {word: [coordinates in matrix]}
 
 lang - "en", "ru"
 
@@ -9,7 +9,7 @@ lang - "en", "ru"
 
 `printWords(matrix)` - prints generated words with coordinates of letters in the matrix
 
-Example:
+## Example
 ```python
 import crossy-words as cw
 
