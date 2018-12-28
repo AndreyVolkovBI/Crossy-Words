@@ -1,7 +1,12 @@
 # Crossy words: word matrix
 Library that generates the word matrix in a way to have multiple words in one 5x5 matrix.
 ## Available methods
-`getMatrix(lang="en")` – returns two values: a list of lists representing a 5x5 matrix and a dictionary of coordinates of a specific word {word: [coordinates in matrix]}
+`getMatrix(lang="en")`
+Parametrs:
+- lang - language of words in the matrix. Values: "en", "ru". By default - "en".
+Result:
+- a list of lists representing a 5x5 matrix 
+- a dictionary of coordinates of specific word {word: [coordinates in matrix]}
 
 lang - "en", "ru"
 
