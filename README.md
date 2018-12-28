@@ -2,9 +2,11 @@
 Library that generates the word matrix in a way to have multiple words in one 5x5 matrix.
 ## Available methods:
 **getMatrix(lang=”en”)** – returns two values: a list of lists representing a 5x5 matrix and a dictionary of coordinates of a specific word {word: [coordinates in matrix]}
+
 lang - "en", "ru"
 
 **printMatrix(matrix)** - prints generated matrix
+
 **printWords(matrix)** - prints generated words with coordinates of letters in the matrix
 
 ```
@@ -15,7 +17,9 @@ matrix, words = cw.getMatrix("en")  # getting a matrix and words in it
 cw.printMatrix(matrix)  # printing matrix
 print()
 cw.printWords(words)  # printing words in it
-
+```
+Output:
+```
 t a t s o
 r h l k b
 s o w k t
