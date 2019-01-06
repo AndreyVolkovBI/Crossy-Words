@@ -6,6 +6,8 @@ Library that generates the word matrix in a way to have multiple words in one 5x
 Parametrs:
 - lang - language of words in the matrix. Values: "en", "ru". By default - "en".
 
+Note that files "russian.txt" and "english.txt" should be added to the root folder.
+
 Result:
 - a list of lists representing a 5x5 matrix 
 - a dictionary of coordinates of specific word {word: [coordinates in matrix]}
